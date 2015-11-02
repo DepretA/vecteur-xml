@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<Vecteurs>
+    <Vecteur name="AJ" x="0.75" y="1.5">
+        <Point x="-3.5" y="2">A</Point>
+        <Point x="-2.75" y="3.5">J</Point>
+    </Vecteur>
+    <Vecteur name="JB" x="0.75" y="1.5">
+        <Point x="-2.75" y="3.5">J</Point>
+        <Point x="-2" y="5">B</Point>
+    </Vecteur>
+    <Vecteur name="IA" x="19.5" y="1.5">
+        <Point x="-23" y="0.5">I</Point>
+        <Point x="-3.5" y="2">A</Point>
+    </Vecteur>
+    <Vecteur name="ID" x="26" y="2">
+        <Point x="-23" y="0.5">I</Point>
+        <Point x="3" y="2.5">D</Point>
+    </Vecteur>
+</Vecteurs>

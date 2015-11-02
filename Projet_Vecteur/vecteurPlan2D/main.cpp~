@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+#include "Point2D.h"
+
+int main(int argc, char* argv[])
+{
+	Point2D* p1 = new Point2D(3.0,-2.0,"A");
+	Point2D* p2 = new Point2D(1.0,2.0,"B");
+	
+	if (p1 == p2)
+	{
+		cout << *p1 << " et " << *p2 << " sont égaux" << endl;
+	}
+	else
+	{
+		cout << *p1 << " et " << *p2 << " ne sont pas égaux" << endl;
+	}
+
+	cout << "distance entre " << *p1 << " et " << *p2 << " : " << p1->distance(*p2) << endl;
+	return 0;
+}
